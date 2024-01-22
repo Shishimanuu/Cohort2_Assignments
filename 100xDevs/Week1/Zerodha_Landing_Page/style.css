@@ -1,0 +1,94 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    margin:0;
+  }
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding:0px 175px;
+    border-bottom: 2px solid rgb(241, 238, 238);
+    margin-top: 5px;
+
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.title{
+   flex:1.2;
+}
+
+.title > img{
+    width: 130px;
+    padding:20px;
+}
+.leftside{
+    display: flex;
+    flex:1;
+}
+
+.signin{
+    padding:20px;
+    color:#666;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.about{
+    padding:20px;
+    font-size: .9rem;
+}
+
+.support{
+    padding:20px;
+    font-size: .9rem;
+}
+.products{
+    padding:20px;
+    font-size: .9rem;
+}
+.pricing{
+    padding:20px;
+    font-size: .9rem;
+}
+.support{
+    padding:20px;
+    font-size: .9rem;
+}
+.page > img{
+   width: 800px;
+}
+
+.page > h2{
+    padding-top: 35px;
+    font-size: 2.75rem;
+    font-weight: 500;
+    margin: 20px;
+    color: #424242;
+    justify-items: center;
+   
+}
+h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+    color: #424242;
+}
+
+button{
+    background-color: rgb(61, 175, 224);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
