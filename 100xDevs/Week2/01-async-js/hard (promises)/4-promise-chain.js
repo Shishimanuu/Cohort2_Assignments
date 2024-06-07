@@ -26,11 +26,12 @@ function wait3(t) {
 
 
 async function calculateTime(t1, t2, t3) {
-    let d1 = new Date;
+    let d0 = Date.now()
     await wait1(t1)
     await wait2(t2)
     await wait3(t3)
-    return Date.now() - d1
+    return Date.now() - d0
+
 }
 
 module.exports = calculateTime;
