@@ -24,10 +24,9 @@ function wait3(t) {
 
 async function calculateTime(t1, t2, t3) {
     let d0 = Date.now()
-    p = [wait1(t1),wait2(t2),wait3(t3)]
+    await Promise.all([wait1(t1),wait2(t2),wait3(t3)])
+    return Date.now()-d0
 
-    await Promise.all(p)
-    return Date.now() - d0
 }
 
 module.exports = calculateTime;
